@@ -1,0 +1,180 @@
+ @font-face {
+    font-family: 'ArchivoNarrowBold';
+    src: url(../fonts/ArchivoNarrow-Bold.otf);
+}
+
+
+body{
+	background: #196870;
+}
+
+
+#descubrir p{
+	color:#fff;
+	font-family: 'BenchNine',sans-serif;
+	font-size: 30px;
+    font-weight: 300;
+    margin: .5em;
+    text-align: justify;
+}
+
+.container {
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0em;
+}
+
+.row {
+    margin-right:0;
+    margin-left: 0;
+   
+}
+#titulo{
+	background: url(../images/Cabeza.jpg);
+	background-size:cover;
+	text-align: center;
+}
+
+#titulo strong{
+	color:#ffa900;
+}
+
+#titulo h1,p{
+	color:#fff;
+	font-family:'Fjalla One',sans-serif;
+}
+
+#titulo h1{
+	font-size: 58px;
+    font-weight: 300;
+    font-family:'Fjalla One',sans-serif;
+}
+
+
+#titulo p{
+	font-size: 34px;
+}
+
+.tabla{
+    background: url(../images/Tablita.png);
+    background-size:cover;
+}
+#beneficios h2{
+    color:#FFa900;
+    font-size: 48px;
+    font-family:Fjalla One;
+    font-weight: inherit;
+
+}
+
+#naranjas img{
+    width: 65%;
+    margin-left: -8em;  
+}
+
+#naranja img{
+    width: 65%;
+    margin-left: 15em;
+}
+
+#beneficios .box img{
+    width: 25%;
+    margin: 0em 8em;;
+}
+#beneficios p{
+    font-family:'BenchNine';
+    font-size: 30px;
+    font-weight: 300;
+    margin: 24px 0px;
+    text-align: justify;
+}
+
+#beneficios .box {
+    margin: 1em;
+    margin-bottom: 3em;
+}
+
+#frase p{
+    text-align: center;
+    font-size: 24px;
+    color: #c5f10c;
+    margin: 1em;
+    line-height: 46px;
+}
+
+#descubrir strong{
+	color:#ffdf00;
+}
+
+#cta{
+	background: #ffa900;
+    margin: 0em auto;
+    padding: 3em;
+    text-align:center;
+}
+
+#cta button{
+	border: 0;
+	background:#7d1935;
+    color: #fff;
+    padding: .5em 2em;
+    box-shadow: 5px 5px 0px #4c0c23, 
+    4px 4px 0px #4c0c23, 3px 3px 0px #4c0c23, 
+    2px 2px 0px #4c0c23, 1px 1px 0px #4c0c23;
+}
+
+.marron{
+    color:#ffa900;
+}
+
+.vino{
+    color: #7d1935;
+}
+
+.coso{
+    margin: 4.5px;
+}
+
+
+.logoum{
+    width: 68%;
+    margin: .5em;
+}
+button{
+	border: 0;
+	text-align:center;
+	background: #ffdf00;
+    color: #7d1935;
+    font-family: 'BenchNine', sans-serif;
+    font-size:28px;
+    font-weight: 700;
+    padding: .3em 1em;
+    box-shadow: 5px 5px 0px #bf810c, 
+    4px 4px 0px #bf810c, 3px 3px 0px #bf810c, 
+    2px 2px 0px #bf810c, 1px 1px 0px #bf810c;
+}
+
+footer{
+	text-align: center;
+    background: #7d1935;
+    color:white;
+}
+
+footer h2{
+    font-size: 38px;
+    font-family: Fjalla One;
+    letter-spacing: 4px;
+    line-height: 46px;
+}
+
+footer img{
+    margin: 2.5em;
+    width: 77%;
+}
+footer p{
+    font-family: BenchNine;
+    font-size: 25px;
+    font-weight: 300;
+}
+
