@@ -1,0 +1,219 @@
+ @font-face {
+    font-family: 'ArchivoNarrowBold';
+    src: url(../fonts/ArchivoNarrow-Bold.otf);
+}
+
+
+
+
+.container {
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0em;
+   } 
+
+
+.row {
+    margin-right:0;
+    margin-left: 0;
+   
+}
+#titulo{
+	background: url(../images/Cabeza.jpg);
+	background-size:cover;
+	text-align: center;
+}
+
+#titulo strong{
+	color:#ffa900;
+}
+
+#titulo h1{
+	font-size: 65px;
+    font-weight: 300;
+    font-family:'Fjalla One',sans-serif;
+    color:#ffffff;
+}
+#titulo p{
+    color:#414042;
+    font-family:avenir Next;
+    font-size: 27px;
+}
+
+button{
+    border: 0;
+    border-radius: 3em;
+    text-align:center;
+    background: #95e561;
+    color: #ffffff;
+    font-family:avenir Next;
+    font-size:28px;
+    font-weight: 300;
+    padding: .3em 1em;
+    box-shadow: 5px 5px 0px #5ba32c, 
+    4px 4px 0px #5ba32c, 3px 3px 0px #5ba32c, 
+    2px 2px 0px #5ba32c, 1px 1px 0px #5ba32c;
+    margin-top: 4em;
+}
+
+#frase p{
+    font-family:avenir Next;
+    text-align: center;
+    font-size: 32px;
+    color: #dc3b62;
+}
+
+#descubrir p{
+    color:#414042;
+    font-family:avenir Next;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 1.5em;
+    text-align: justify;
+}
+#descubrir strong{
+    color:#f59933;
+}
+#descubrir .tres p{
+    font-size: 19px;
+    margin-right: 4em;
+    margin-top: -1em;
+}
+#descubrir .limon img{
+    width: 351%;
+    transform: rotate(-84deg);
+    margin-top: -47em;
+    margin-left: -8em;
+}
+
+#seccion2{
+    background:url(../images/rosa.jpg);
+    background-size: cover;
+    margin-left: -12em;
+    margin-top: -8em;
+}
+
+#seccion2 .container{
+    margin: 29px auto;
+    padding: 5em 0em;
+}
+#seccion2 h2{
+    color:#f59933;
+    font-size: 55px;
+    font-family:Fjalla One;
+    font-weight: inherit;
+    text-align: end;
+    margin-top: 287px;
+}
+
+#seccion2 p{
+    color: #414042;
+    font-family: Avenir Next;
+    font-size: 29px;
+    text-align: end;
+    margin-top: -2em;
+}
+
+#iconos{
+    margin-top: -7em;
+}
+#iconos p{
+    color:#414042;
+    font-family:Source Sans Pro; 
+    font-size: 22px;
+    font-weight: 300;
+    margin: 24px 0px;
+    text-align: center;
+}
+
+#iconos .box img{
+    width: 31%;
+    margin: 0em 8em;
+    margin-top: 3em;
+}
+
+
+#beneficios .box {
+    margin: 1em;
+    margin-bottom: 3em;
+}
+
+
+#cta{
+	background: url(../images/moras.png);
+    background-size: cover;
+    margin: 0em auto;
+    padding: 3em;
+    text-align:center;
+    background-position: -11em;
+}
+
+#cta button{
+	border: 0;
+    border-radius: 3em;
+    text-align:center;
+    background: #95e561;
+    color: #ffffff;
+    font-family:avenir Next;
+    font-size:28px;
+    font-weight: 300;
+    padding: .3em 1em;
+    box-shadow: 5px 5px 0px #5ba32c, 
+    4px 4px 0px #5ba32c, 3px 3px 0px #5ba32c, 
+    2px 2px 0px #5ba32c, 1px 1px 0px #5ba32c;
+    margin-top: 4em;
+}
+
+/*button {
+    -webkit-transition-duration: 0.4s; /* Safari 
+    transition-duration: 0.4s;
+}*/
+
+button:hover{
+    background-color:#5ba32c;
+    color: #fff;
+}
+
+.morado{
+    color:#7c4c6d;
+}
+
+.fondo{
+    color: #9d708f;
+}
+
+.coso{
+    margin: 4.5px;
+}
+
+
+.logoum{
+    width: 68%;
+    margin: .5em;
+}
+
+
+footer{
+	text-align: center;
+    background: #9d7090;
+    color:white;
+}
+
+footer h2{
+    font-size: 40px;
+    font-family: Avenir Next;
+    line-height: 41px;
+    font-weight: 300;
+}
+
+footer img{
+    margin: 1.5em;
+    width: 71%;
+}
+footer p{
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 300;
+}
+
