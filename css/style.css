@@ -17,7 +17,12 @@
 .row {
     margin-right:0;
     margin-left: 0;
-   
+}
+
+#logo{
+    width: 68%;
+    margin: .5em;
+
 }
 #titulo{
 	background: url(../images/Cabeza.jpg);
@@ -64,13 +69,17 @@ button{
     color: #dc3b62;
 }
 
+#descubrir{
+    text-align: center;
+}
+
 #descubrir p{
     color:#414042;
     font-family:avenir Next;
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 300;
     margin: 1.5em;
-    text-align: justify;
+    text-align: center;
 }
 #descubrir strong{
     color:#f59933;
@@ -79,12 +88,12 @@ button{
     font-size: 19px;
     margin-right: 4em;
     margin-top: -1em;
+    text-align: justify;
 }
 #descubrir .limon img{
-    width: 351%;
-    transform: rotate(-84deg);
-    margin-top: -47em;
-    margin-left: -8em;
+    width: 400%;
+    margin-top: -13em;
+    margin-left: -4em;
 }
 
 #seccion2{
@@ -128,7 +137,7 @@ button{
 }
 
 #iconos .box img{
-    width: 31%;
+    width: 28%;
     margin: 0em 8em;
     margin-top: 3em;
 }
@@ -183,15 +192,6 @@ button:hover{
     color: #9d708f;
 }
 
-.coso{
-    margin: 4.5px;
-}
-
-
-.logoum{
-    width: 68%;
-    margin: .5em;
-}
 
 
 footer{
