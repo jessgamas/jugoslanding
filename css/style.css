@@ -71,6 +71,7 @@ button{
 
 #descubrir{
     text-align: center;
+    margin-top: -4em;
 }
 
 #descubrir p{
@@ -86,27 +87,28 @@ button{
 }
 #descubrir .tres p{
     font-size: 19px;
-    margin-right: 4em;
-    margin-top: -1em;
+    margin-right: 9em;
     text-align: justify;
 }
-#descubrir .limon img{
-    width: 400%;
-    margin-top: -13em;
-    margin-left: -4em;
+
+#limones{
+    background:url(../images/amarillo.png);
+    background-size:cover;
+    padding: 35em 0em;
+    margin-top: -23em;
 }
 
 #seccion2{
-    background:url(../images/rosa.jpg);
+    background:url(../images/rosa.png);
     background-size: cover;
-    margin-left: -12em;
-    margin-top: -8em;
+    margin-left: -13em;
+    margin-top: -49em;
 }
 
-#seccion2 .container{
-    margin: 29px auto;
-    padding: 5em 0em;
-}
+/*#seccion2 .container{
+    margin: 2em auto;
+    padding: 1em 1em;
+}*/
 #seccion2 h2{
     color:#f59933;
     font-size: 55px;
@@ -124,12 +126,14 @@ button{
     margin-top: -2em;
 }
 
-#iconos{
-    margin-top: -7em;
+#naranjas img{
+    padding:  0em;
+    margin-top: -23em;
 }
+
 #iconos p{
     color:#414042;
-    font-family:Source Sans Pro; 
+    font-family:avenir Next; 
     font-size: 22px;
     font-weight: 300;
     margin: 24px 0px;
@@ -137,8 +141,8 @@ button{
 }
 
 #iconos .box img{
-    width: 28%;
-    margin: 0em 8em;
+    width: 25%;
+    margin: 0em 9em;
     margin-top: 3em;
 }
 
