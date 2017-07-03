@@ -94,7 +94,7 @@ button{
 #limones{
     background:url(../images/amarillo.png);
     background-size:cover;
-    padding: 35em 0em;
+    padding: 37em 0em;
     margin-top: -23em;
 }
 
@@ -128,7 +128,13 @@ button{
 
 #naranjas img{
     padding:  0em;
-    margin-top: -23em;
+    margin-left:-13em;
+    width: 91%;
+    margin-top: -2em;
+}
+
+#iconos{
+    margin-top: -29em;
 }
 
 #iconos p{
@@ -141,8 +147,7 @@ button{
 }
 
 #iconos .box img{
-    width: 25%;
-    margin: 0em 9em;
+    width: 22%;
     margin-top: 3em;
 }
 
@@ -157,10 +162,9 @@ button{
 	background: url(../images/moras.png);
     background-size: cover;
     margin: 0em auto;
-    padding: 3em;
-    text-align:center;
-    background-position: -11em;
-}
+    padding: 9em;
+    margin-left: -3em;
+    }
 
 #cta button{
 	border: 0;
@@ -171,20 +175,20 @@ button{
     font-family:avenir Next;
     font-size:28px;
     font-weight: 300;
-    padding: .3em 1em;
     box-shadow: 5px 5px 0px #5ba32c, 
     4px 4px 0px #5ba32c, 3px 3px 0px #5ba32c, 
     2px 2px 0px #5ba32c, 1px 1px 0px #5ba32c;
-    margin-top: 4em;
+    padding: .3em 1em;
+    position: absolute;
+    margin-left: -1.5em;
 }
 
-/*button {
-    -webkit-transition-duration: 0.4s; /* Safari 
-    transition-duration: 0.4s;
-}*/
-
 button:hover{
-    background-color:#5ba32c;
+    background-color:#75ce3c;
+    color: #fff;
+}
+#cta button:hover{
+    background-color:#75ce3c;
     color: #fff;
 }
 
@@ -196,8 +200,6 @@ button:hover{
     color: #9d708f;
 }
 
-
-
 footer{
 	text-align: center;
     background: #9d7090;
@@ -205,6 +207,7 @@ footer{
 }
 
 footer h2{
+    padding-top: 1em;
     font-size: 40px;
     font-family: Avenir Next;
     line-height: 41px;
@@ -221,3 +224,35 @@ footer p{
     font-weight: 300;
 }
 
+/*Empieza Tablet*/
+
+@media only screen and (min-width:768px) {
+
+
+
+#limones{
+    padding: 36em 0em;
+    margin-left: -41em;
+    margin-top: -28em;
+}
+
+#seccion2{
+    margin-left: -13em;
+    margin-top: -24em;
+}
+
+#descubrir p{
+    text-align: justify;
+}
+
+#descubrir .tres p {
+    font-size: 26px;
+    text-align: center;
+    margin-right: 0em;
+}
+
+#naranjas img{
+    margin-left: -17em;
+    width: 68%
+    }
+}
