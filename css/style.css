@@ -18,8 +18,25 @@
 .body{
     background:url(../images/madera.jpg);
     margin: 0;
-
 }
+
+#head{
+    position: absolute;
+}
+
+
+#um > img{
+     width: 68%;
+}
+
+#umvirtual > img{
+    width: 68%;
+    margin: 1em;
+}
+
+osition: absolute;
+    }
+
 #logo{
     width: 68%;
     margin: .5em;
@@ -36,10 +53,11 @@
 }
 
 #titulo h1{
-	font-size: 65px;
+	font-size: 72px;
     font-weight: 300;
     font-family:'Fjalla One',sans-serif;
     color:#ffffff;
+    padding-top: 1em;
 }
 
 #titulo p{
@@ -238,13 +256,17 @@ footer p{
 
 @media only screen and (min-width: 48em) {
 
-    header #head #um {
-    width: 70%;
+
+    #um > img{
+            width: 84%
     }
 
-    header #head #umvirtual{
-        width: 70%;
+    #umvirtual > img{
+            padding-left: 24em;
+            margin-top: -6em;
+            width: 43%;
     }
+   
     
     #titulo > section > div > h1{
         font-size: 100px;
@@ -284,12 +306,19 @@ footer p{
         margin-top: -24em;
     }
 
+    #seccion2 h2{
+        font-size: 67px;
+        margin-left: 8em;
+    }
+
     #naranjas > section > img{   
         transform: rotate(-31deg);
         margin-left: -18em;
         width: 80%;
         margin-top: 6em;
     }
+
+
 /*I C O N O S*/
     #iconos{
             margin-top: -59em;
@@ -389,13 +418,14 @@ footer p{
             border-radius: 1em;
             font-size: 37px;
             font-weight: 400;
+            margin-left: -5em;
     }
 
 
 }
 
 
-@media only screen and (min-width: 569px){
+/*@media only screen and (min-width: 569px){
 
     
 header #head #um {
@@ -406,6 +436,14 @@ header #head #umvirtual{
     width: 56%;
 }
 
+
+}*/
+
+@media only screen and (min-width: 1025px){
+
+    footer h2{
+        margin:2em;
+    }
 
 }
 
