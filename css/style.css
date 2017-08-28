@@ -1,7 +1,4 @@
- @font-face {
-    font-family: 'ArchivoNarrowBold';
-    src: url(../fonts/ArchivoNarrow-Bold.otf);
-}
+
 
 .container {
     max-width: 1140px;
@@ -244,7 +241,7 @@ footer p{
 
 /*Empieza Tablet*/
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 768px) {
    
     
     #titulo > section > div > h1{
@@ -393,9 +390,9 @@ footer p{
             font-weight: 400;
             margin-left: -5em;
     }
-
-
 }
+
+
 
 
 @media only screen and (min-width: 1025px){
@@ -540,7 +537,8 @@ footer p{
 }
 
 
-@media only screen and (min-width: 1281em) {
+/*@media only screen and (min-width: 1440px) {
+
     body{
     background:url(../images/madera.jpg);
     margin: 0;
@@ -557,6 +555,7 @@ footer p{
         margin-left: 0em;
         margin-bottom: 0em;
         margin-top: 6em;
+        display: none;
     }
 
     footer h2 {
@@ -567,6 +566,101 @@ footer p{
     footer p {
         font-size: 19px
     }
+
+}*/
+
+
+@media only screen and (min-width: 1440px) {
+
+    #titulo {
+        padding: 0em;
+    }
+
+    #titulo > section > div > h1 {
+        font-size: 177px;
+        padding-top: 0em;
+    }
+
+    #titulo > section > div > p {
+        font-size: 47px;
+        margin-top: -3em;
+    }
+
+    #frase > div > p {
+        font-size: 54px;
+        margin-top: 2em;
+    }
+
+    #descubrir > div > div > div:nth-child(1) > p {
+        font-size: 34px;
+    }
+
+    #descubrir > div > div > div:nth-child(2) > p {
+        font-size: 34px;
+    }
+
+    #descubrir .tres > p {
+        font-size: 49px;
+        text-align: center;
+        margin: 3em;
+    }
+
+    #limones {
+        padding-bottom: 78em;
+        margin-top: -40em;
+        margin-left: -26em;
+    }
+
+    #seccion2 {
+        margin-top: -50em;
+    }
+
+    #seccion2 > section > div > h2 {
+        font-size: 102px;
+        margin-top: 8em;
+    }
+
+   #seccion2 > section > div > h2 {
+        font-size: 102px;
+        margin-left: 8em;
+    }
+
+    #iconos > div > div > div:nth-child(1) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p {
+        text-align: initial;
+        font-size: 31px;
+    }
+
+    #iconos > div > div > div:nth-child(2) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p {
+        text-align: initial;
+        font-size: 31px;
+    }
+
+    #iconos > div > div > div:nth-child(3) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p {
+        text-align: initial;
+        font-size: 31px;
+    }
+
+    #iconos > div > div > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p {
+        text-align: initial;
+        font-size: 31px;
+    }
+
+    #iconos > div > div > div:nth-child(5) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p {
+        text-align: initial;
+        font-size: 31px;
+    }
+
+    #taza {
+        margin: -14em auto;
+        padding: 35em 0em;
+        margin-left: 0em;
+    }
+
+
+    footer h2 {
+        font-size:60px;
+   } 
+
 
 }
 
