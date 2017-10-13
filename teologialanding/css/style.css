@@ -1,0 +1,609 @@
+.container {
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0em;
+} 
+
+.row {
+    margin-right:0;
+    margin-left: 0;
+}
+
+
+#head{
+	position: absolute;
+}
+#head > div > div > div:nth-child(1) > div > img{
+    width: 75%;
+}
+#head > div > div > div:nth-child(2) > div > img{
+    width: 75%;
+}
+
+#titulo{
+	background: url(../images/teologialanding.png);
+	background-size: cover;
+	background-position: center;
+}
+
+#titulo h1{
+	color:white;
+	font-family: Poppins;
+    font-weight: 300;
+    font-size: 53px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+button{
+	font-family: Poppins;
+    font-weight: 300;
+    color: white;
+    font-size: 21px;
+    border-radius: 4em;
+    background-color: rgba(0,0,0, 0.0);
+    margin-bottom: 3em;
+    border: 3px solid #FFFFFF;
+    padding: .5em;
+}
+
+button:hover {
+    background-color: #0099CC;
+    color: white;
+    border:none;
+}
+
+#descripcion h2{
+    text-align: center;
+    color: #0099CC;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 45px
+}
+
+/*EMPIEZA ICONOS*/
+#descripcion > div > div:nth-child(1) > div{
+    position: relative;
+    height: 60px;
+}
+
+#descripcion > div > div:nth-child(1) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%
+}
+#descripcion > div > div:nth-child(1) > h3{
+         text-align: center;
+        color: #038FB4;
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 23px
+}
+#descripcion > div > div:nth-child(1) > p{
+    text-align:justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+}
+
+#descripcion > div > div:nth-child(2) > div{
+    position: relative;
+    height: 60px;
+}
+
+#descripcion > div > div:nth-child(2) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%
+}
+#descripcion > div > div:nth-child(2) > h3{
+         text-align: center;
+        color: #038FB4;
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 23px
+}
+#descripcion > div > div:nth-child(2) > p{
+    text-align:justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+}
+
+#descripcion > div > div:nth-child(3) > div{
+    position: relative;
+    height: 60px;
+}
+
+#descripcion > div > div:nth-child(3) > div > img{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%
+}
+#descripcion > div > div:nth-child(3) > h3{
+         text-align: center;
+        color: #038FB4;
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 23px
+}
+#descripcion > div > div:nth-child(3) > p{
+    text-align:justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+}
+
+/*TERMINA ICONOS*/
+
+/* Empieza Descripcion de teologia*/
+#teologia{
+    background: url(../images/azulfondo.png);
+    background-size: cover;
+    background-position: center;
+}
+/*#teologia > section > div.box > img{
+    width: 100%;
+    margin-bottom: -33em
+}*/
+#teologia > section{
+    padding: 6em 0em;
+}
+
+#teologia h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 35px
+}
+
+#teologia p{
+    text-align: justify;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 2em;
+    margin: 3em;
+}
+
+
+#duracion{ 
+    background-image: url(../images/manos.png);
+    height: 500px;
+    background-size: cover;
+    margin-top: -8em;
+}
+
+#duracion h2{
+    text-align:left;
+    color: #0099CC;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 45px;
+    margin-top: 2em;
+    margin-left: 0.5em;
+}
+
+#duracion p{
+    text-align: justify;
+    color: #04183D;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 2em;
+    margin: 1em;
+}
+
+#costos > div.col-xs-12 > section > img{
+    width: 161%;
+    margin-top: -8em;
+    margin-left: -14em;
+}
+
+#costos > div.col-xs-12 > h2{
+    margin-top: -8em;
+    margin-bottom: 0em;
+    margin-left: .5em;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 35px;
+    text-align:left;
+}
+
+/*PRECIO DE MATRICULAS-1*/
+#costos > div.container > div > div:nth-child(1) > div > h3{
+    color: white;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 25px
+}
+
+#costos > div.container > div > div:nth-child(1) > div > h2{
+     color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: -0.5em;
+}
+
+#costos > div.container > div > div:nth-child(1) > div > p{
+    color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    margin-top: -1.5em
+}
+/*PRECIO DE MATRICULAS-1 */
+
+/*PRECIO DE MATRICULAS-2 */
+#costos > div.container > div > div:nth-child(2) > div > h3{
+    color: white;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 25px
+}
+
+#costos > div.container > div > div:nth-child(2) > div > h2{
+     color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: -0.5em;
+}
+
+#costos > div.container > div > div:nth-child(2) > div > p{
+    color: white;
+    font-family: Poppins;
+    font-weight: 100;
+    margin-top: -1.5em
+}
+/*PRECIO DE MATRICULAS-2*/
+#frase{
+    text-align: center;
+}
+#EGRESADOS h2{
+    color: #04183D;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 45px;
+    margin-top: 2em;
+}
+
+
+/*INICIO EGRESADO 1*/
+#EGRESADOS > div:nth-child(2){
+    margin-bottom: 4em;
+}
+
+#EGRESADOS > div:nth-child(2) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
+    width: 34%;
+    border-radius: 10em;
+}
+#EGRESADOS > div:nth-child(2) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+    color: #000033;
+    font-weight: 300;
+    font-size: 24px;
+}
+#EGRESADOS > div:nth-child(2) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+    text-align:justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+}
+
+/*INICIO EGRESADO 2*/
+#EGRESADOS > div:nth-child(3){
+    margin-bottom: 4em;
+}
+
+#EGRESADOS > div:nth-child(3) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
+    border-radius: 10em;
+     width: 34%;
+}
+#EGRESADOS > div:nth-child(3) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+    color: #000033;
+    font-weight: 300;
+    font-size: 24px;
+}
+#EGRESADOS > div:nth-child(3) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+    text-align:justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+}
+
+/*INICIO EGRESADO 3*/
+
+#EGRESADOS > div:nth-child(4){
+    margin-bottom: 4em;
+}
+
+#descripcion > div:nth-child(4){
+    margin-bottom: 4em;
+}
+#EGRESADOS > div:nth-child(4) > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > img{
+    width: 34%;
+    border-radius: 10em;
+}
+#EGRESADOS > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > h3{
+    color: #000033;
+    font-weight: 300;
+    font-size: 24px;
+}
+#EGRESADOS > div:nth-child(4) > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+    text-align:justify;
+    color: #000033;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 2em;
+    margin-top: -1em;
+}
+/*FINAL EGRESADOS*/
+
+#final{
+    background: url(../images/telefono.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#final h1{
+    color: white;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: .5em;
+}
+
+#final button{
+    margin-bottom: 0em;
+    margin-left: .7em;
+}
+
+footer{
+    background-color: #06306D;
+    color: white;
+    font-family: Poppins;
+    font-weight: 100;
+}
+#copy > section > div > div.col-xs-6.middle-xs > p{
+    font-size: 10px;
+    text-align: left
+}
+#copy > section > div > div:nth-child(2) > div > img{
+        width: 85%;
+        margin-left: 3em;
+}
+
+#copy > section > div > div:nth-child(3) > div > img{
+        width: 85%;   
+}
+
+
+
+
+
+/*EMPIEZA TABLET*/
+
+@media only screen and (min-width: 768px){
+
+    #titulo > section > div > h1{
+        font-size: 67px;
+    }
+
+    #head > div > div > div:nth-child(1) > div > img{
+        width: 50%;
+    }
+
+    #head > div > div > div:nth-child(2) > div > img{
+        width: 50%;
+    }
+
+
+     #teologia > section{
+        margin: 0em 0em;
+        padding: 10em 0em;
+    }
+
+
+    #teologia > section > div > div.col-xs-12.col-sm-5.center-xs.middle-sm > div{
+         margin-top: 8em;
+    }
+
+    #costos > div.col-xs-12 > section > img{
+        width: 105%;
+        margin-top: -8em;
+        margin-left: -2em;
+    }
+
+    #teologia > section > div.box > img{
+        margin-bottom: -28em;
+    }
+
+    #duracion > section{
+        padding: 5em 0em;
+    }
+
+
+    #costos > div.col-xs-12 > section > img{
+        margin-top: -8em;
+        margin-left: -2em;
+    }
+
+    #copy > section > div > div.col-xs-6.middle-xs > p{
+        font-size: 16px;
+    }
+
+    #copy > section > div > div:nth-child(2) > div > img{
+        width: 45%;
+        margin-left:12em;
+    }
+
+    #copy > section > div > div:nth-child(3) > div > img{
+             width: 45%;
+    margin-left: 3em;
+    }
+
+    #final > section{
+        padding: 6em 0em;
+    }
+
+    #final > section > div > h1{
+        margin-left:0em;
+    }
+
+    #final > section > div > a > button{
+        margin-left: 0em;
+    }
+   
+    }
+
+@media only screen and (min-width: 1024px){
+
+        #titulo > section{
+            padding: 6em 0em;
+        }
+
+         #teologia > section{
+            padding: 16em 0em;
+         }
+
+        #duracion{
+            height: 658px;
+            margin-top: -9em;
+        }
+
+        #duracion > section.container > div > p{
+    
+            text-align: justify;
+            color: #04183D;
+            font-family: Poppins;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 2em;
+            margin: 6em;
+            margin-top: 3em;
+        }
+/*TEXTO DE LOS COSTOS*/
+        #costos > div.container > div > div:nth-child(1) > div > h3{
+            font-size: 35px;
+        }
+        #costos > div.container > div > div:nth-child(1) > div > h2{
+            margin-top: -1em;
+        }
+        #costos > div.container > div > div:nth-child(1) > div > p{
+            margin-top: -1em;
+            font-size: 25px;
+        }
+
+        #costos > div.container > div > div:nth-child(2) > div > h3{
+            font-size: 35px;
+        }
+        #costos > div.container > div > div:nth-child(2) > div > h2{
+            margin-top: -1em;
+        }
+        #costos > div.container > div > div:nth-child(2) > div > p{
+            margin-top: -1em;
+            font-size: 25px;
+        }
+/* FIN TEXTO DE LOS COSTOS*/
+
+        #costos > div.col-xs-12 > section > img{
+            margin-top: -11em;
+        }
+
+        #teologia > section > div > div.col-xs-12.col-sm-5.center-xs.middle-sm > div > h2{
+            font-size:55px;
+        }
+
+        #teologia > section > div > div.col-xs-12.col-sm-7.center-xs.middle-sm > div > p{
+            font-size: 25px;
+            line-height: 1.5em;
+            margin: 3em
+        }
+
+        #costos > div.col-xs-12 > h2{
+            font-size: 45px;
+            text-align: center;
+            margin-top: -9em;
+            margin-bottom: 0em;
+        }
+
+        #costos > div.container{
+                padding: 6em 0em;
+        }
+
+        #copy > section > div > div:nth-child(2) > div > img{
+                width: 39%;
+                margin-left: 16em;
+        }
+
+        #copy > section > div > div:nth-child(3) > div > img{
+            width: 39%;
+        }
+       
+}
+
+@media only screen and (min-width: 1024px){
+
+   #descripcion > div > div:nth-child(1) > div{
+    height: 116px;
+   }
+    #titulo > section{
+        padding: 23em 0em;
+    }
+
+    #titulo > section > div > h1{
+        font-size: 70px;
+    }
+    #teologia > section{
+        padding: 15em 0em;
+        height: 771px;
+    }
+    #duracion{
+        height: 786px;
+        margin-top: -15em;
+    }
+    }
